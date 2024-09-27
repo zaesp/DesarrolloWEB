@@ -11,11 +11,6 @@ body {
     color: #FFFFFF;
 }
 
-.container {
-    max-width: 12000px;
-}
-
-
 .navbar {
     position:absolute;
     top: 20px;
@@ -82,33 +77,33 @@ body {
 }
 
 /* heade */
-.header-content {
+.main-content {
     margin-top: 180px;
 }
 
 /* Pone en fila cada punto */
-.slider {
+.box {
     display: flex;
     align-items:center;
 }
 
-.slider-txt {
+.box-txt {
     margin-left: 85px;
     width: 50%;
 }
 
-.slider-txt h1 {
+.box-txt h1 {
     font-size: 60px;
     color: #FFFFFF;
     text-transform: uppercase;
 }
 
-.slider-txt p {
+.box-txt p {
     font-size: 18px;
     color: #A7A7A7;
 }
 
-.slider-img img {
+.box-img img {
     margin-right: 225px;
     width: 500px;
 }
@@ -145,7 +140,7 @@ body {
     margin-bottom: 50px;
 }
 
-.btn-2{
+.btn-info{
     display: inline-block;
     padding: 15px 60px;
     background-color: #db241b;
@@ -156,7 +151,7 @@ body {
 
 }
 
-.btn-2:hover{
+.btn-info:hover{
     background-color: #ab1c15;
 }
 
