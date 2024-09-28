@@ -1,24 +1,25 @@
 /* Estilos generales */
 * {
+    text-decoration: none;
+    list-style: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-    line-height: 1.6;
-}
-
-h1, h2 {
-    text-align: center;
-    color: #db241b;
+    background-color: #080202;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
 /* Estilos para la navegación */
+/*
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -58,6 +59,65 @@ h1, h2 {
     width: 40px;
     margin-right: 10px;
     border-radius: 50%;
+}
+*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #080202;
+}
+
+.menu-1 ul {
+    display: flex;
+}
+
+.menu-1 ul li {
+    margin-right: 20px;
+}
+
+.menu-1 ul li a {
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.menu-1 ul li a:hover {
+    background-color: #db241b;
+    border-radius: 5px;
+}
+
+.logo-1 {
+    width: 130px;
+    height: auto;
+}
+
+.menu-2 .socials {
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #db241b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social img {
+    width: 24px;
+    height: 24px;
+}
+
+.social:hover {
+    background-color: #db241b;
 }
 
 /* Estilos de la galería */
