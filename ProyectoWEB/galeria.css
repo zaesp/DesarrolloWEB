@@ -1,0 +1,140 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #db241b;
+}
+
+/* Estilos para la navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu li a:hover {
+    color: #db241b;
+}
+
+.logo {
+    width: 150px;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials a img {
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+/* Estilos de la galería */
+.gallery {
+    margin-top: 40px;
+}
+
+.gallery-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.gallery-item.reverse {
+    flex-direction: row-reverse;
+}
+
+.gallery-item img {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-text {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-text p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #0d0d0d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.logo-footer {
+    width: 100px;
+}
+
+.footer-info, .social-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-info .info-block {
+    margin-bottom: 10px;
+}
+
+.footer-info h4, .social-links a {
+    color: #db241b;
+}
+
+.footer-info p {
+    color: #fff;
+}
+
+/* Responsividad para móviles */
+@media (max-width: 768px) {
+    .gallery-item {
+        flex-direction: column;
+    }
+
+    .gallery-item img {
+        width: 100%;
+    }
+
+    .gallery-text {
+        width: 100%;
+    }
+}

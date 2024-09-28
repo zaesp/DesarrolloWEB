@@ -11,6 +11,11 @@ body {
     color: #FFFFFF;
 }
 
+.container {
+    max-width: 12000px;
+}
+
+
 .navbar {
     position:absolute;
     top: 20px;

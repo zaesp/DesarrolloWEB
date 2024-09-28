@@ -1,0 +1,159 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #080202;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #080202;
+}
+
+.menu-1 ul {
+    display: flex;
+}
+
+.menu-1 ul li {
+    margin-right: 20px;
+}
+
+.menu-1 ul li a {
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.menu-1 ul li a:hover {
+    background-color: #db241b;
+    border-radius: 5px;
+}
+
+.logo-1 {
+    width: 130px;
+    height: auto;
+}
+
+.menu-2 .socials {
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #db241b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social img {
+    width: 24px;
+    height: 24px;
+}
+
+.social:hover {
+    background-color: #db241b;
+}
+
+/* Contact Form */
+.contact-container {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.contact-info p, .social-media a {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    color: #2980b9;
+}
+
+h1, h3 {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #0d0d0d;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .horario-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.horario-info h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.horario-txt {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.txt {
+    flex: 1;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.txt h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.txt p {
+    font-size: 14px;
+}
+
+.links {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+}
+
+.links h4 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .horario-txt {
+        flex-direction: column;
+        align-items: center;
+    }
+}

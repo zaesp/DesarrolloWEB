@@ -3,48 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Galería</title>
+    <link rel="stylesheet" href="galeria.css">
 </head>
 <body>
-    <h1>Nuestro Local</h1>
-    <div>
-        <img src="assests/equipazo.jpeg" alt="LOCAL"
-        width="250"
-        height="150">
-    </div>
-    <h2>Nuestras Instalaciones</h2>
-    <div>
-        <img class="img" src="assests/instalaciones.jpeg" alt="Area de Descanzo"
-        width="250"
-        height="150">
-        <br>
-        <img class="img" src="assests/instalacion2.jpeg" alt="COMODIDAD"
-        width="250"
-        height="150">
-    </div>
-    <div>
-        <h2>Equipo de Trabajo y proceso de lavado</h2>
-        <img src="assests/equipo.jpeg" alt="EQUIPO DE TRABAJO"
-        width="250"
-        height="150">
-        <br>
-        <img src="assests/sucio.jpeg" alt="SUCIO"
-        width="250"
-        height="150">
-        <br>
-        <img src="assests/lavado.jpeg" alt="LAVADO"
-        width="250"
-        height="150">
-        <br>
-        <img src="assests/limpio.jpeg" alt="LIMPIO"
-        width="250"
-        height="150">
-    </div>
-    <div>
-        <h2>Cliente Satisfecho</h2>
-        <img src="assests/cliente_conten.jpeg" alt="CLIENTE SATISFECHO"
-        width="250"
-        height="150">
-    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="index.html">Hogar</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contactanos.html">Contáctanos</a></li>
+                <li><a href="organigrama.html">Organigrama</a></li>
+            </ul>
+            <img class="logo" src="assests/logo.jpg" alt="Logo del Car Wash" width="150" height="100">
+            <div class="socials">
+                <a href="#"><img src="assests/SocialFacebook.png" alt="Facebook"></a>
+                <a href="#"><img src="assests/socialWath.png" alt="WhatsApp"></a>
+                <a href="#"><img src="assests/socialImstragra.png" alt="Instagram"></a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="gallery">
+            <div class="gallery-item">
+                <img src="assests/equipazo.jpeg" alt="Instalaciones">
+                <div class="gallery-text">
+                    <h2>Nuestro Local</h2>
+                    <p>Nuestro Car Wash cuenta con un local especialmente diseñado para brindarte una experiencia cómoda y eficiente. Nuestras instalaciones están equipadas con la última tecnología en limpieza automotriz, asegurando que tu vehículo salga como nuevo tras cada visita.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item reverse">
+                <img src="assests/instalaciones.jpeg" alt="Área de descanso">
+                <div class="gallery-text">
+                    <h2>Instalaciones</h2>
+                    <p>Contamos con espacios amplios y modernos, preparados para ofrecerte la máxima comodidad mientras esperas. Nuestro objetivo es hacer que tu estancia sea agradable, por lo que disponemos de una sala de descanso con aire acondicionado, WiFi, y entretenimiento, para que puedas relajarte mientras cuidamos de tu vehículo.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item reverse">
+                <img src="assests/equipo.jpeg" alt="Equipo">
+                <div class="gallery-text">
+                    <h2>Equipo de Trabajo</h2>
+                    <p>Nuestro equipo está conformado por jóvenes entusiastas que, aunque no contaban con experiencia previa, han recibido capacitación directamente en el Car Wash. Estos jóvenes han demostrado su capacidad para aprender rápidamente y adaptarse a las necesidades del servicio. Nos enorgullece brindarles la oportunidad de desarrollarse laboralmente, mientras ellos, con su dedicación y energía, ofrecen a nuestros clientes un servicio de calidad, siempre comprometidos con mejorar día a día.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="assests/lavado2d.jpeg" alt="Proceso de Lavado - Antes">
+                <div class="gallery-text">
+                    <h2>Proceso de Lavado - Durante</h2>
+                    <p>Durante el proceso de lavado, nuestro equipo se asegura de tratar cada vehículo con especial cuidado. Utilizamos productos y herramientas de alta calidad que son seguros para la pintura y los componentes del auto. El equipo limpia meticulosamente cada área, desde la carrocería hasta las llantas, garantizando que se elimine toda la suciedad acumulada. Además, se presta atención a los detalles interiores, donde aplicamos técnicas suaves pero efectivas para dejar el auto impecable por dentro y por fuera.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item reverse">
+                <img src="assests/minusiosa.jpeg" alt="Proceso de Lavado - Despues">
+                <div class="gallery-text">
+                    <h2>Proceso de Lavado - Después</h2>
+                    <p>Una vez finalizado el lavado, se realiza una inspección minuciosa para asegurar que el vehículo quede en condiciones óptimas. Aplicamos acabados especiales, como el secado sin contacto para evitar marcas de agua y el uso de ceras o protectores, que ayudan a preservar la pintura y darle un brillo duradero. Nuestro objetivo es que cada auto no solo esté limpio, sino también protegido, listo para que el cliente disfrute de un resultado perfecto.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="assests/cliente_conten.jpeg" alt="Cliente Satisfecho">
+                <div class="gallery-text">
+                    <h2>Cliente Satisfecho</h2>
+                    <p>Para nosotros, la satisfacción de nuestros clientes es lo más importante. Nos enorgullece ver a nuestros clientes felices con los resultados de nuestro servicio, y trabajamos cada día para mejorar la experiencia y garantizar que cada visita sea lo más agradable y eficaz posible.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <img class="logo-footer" src="assests/logo.jpg" alt="Logo del Car Wash">
+        <div class="footer-info">
+            <div class="info-block">
+                <h4>Dirección</h4>
+                <p>Av. Alameda, Puerto Maldonado</p>
+                <p>(Frente al primer redondo techado)</p>
+            </div>
+            <div class="info-block">
+                <h4>Horario</h4>
+                <p>Lunes a Sábado: 8:00 am - 6:00 pm</p>
+                <p>Domingo: 8:00 am - 4:30 pm</p>
+            </div>
+            <div class="info-block">
+                <h4>Teléfono</h4>
+                <p>935351763</p>
+                <p>926066728</p>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="#"><img src="assets/SocialFacebook.png" alt="Facebook"></a>
+            <a href="#"><img src="assets/socialWath.png" alt="WhatsApp"></a>
+            <a href="#"><img src="assets/socialImstragra.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
 </body>
 </html>
