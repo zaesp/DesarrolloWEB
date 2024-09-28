@@ -23,7 +23,7 @@ h1, h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #0d0d0d;
     padding: 10px;
 }
 
@@ -96,15 +96,16 @@ h1, h2 {
 /* Footer */
 footer {
     background-color: #0d0d0d;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .logo-footer {
-    width: 100px;
+    width: 150px;
+    height: 200px;
 }
 
 .footer-info, .social-links {
