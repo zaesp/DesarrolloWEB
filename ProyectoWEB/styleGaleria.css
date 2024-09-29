@@ -19,7 +19,7 @@ body {
 }
 
 /* Estilos para la navegación */
-/*
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -154,48 +154,54 @@ body {
 }
 
 /* Footer */
-footer {
+/* Footer */
+.footer {
     background-color: #0d0d0d;
-    padding: 10px;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
 }
 
-.logo-footer {
-    width: 150px;
-    height: 200px;
+.footer .horario-info {
+    flex: 1;
+    padding: 20px;
 }
 
-.footer-info, .social-links {
+.horario-info h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.horario-txt {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.footer-info .info-block {
+.txt {
+    flex: 1;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.txt h4 {
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
-.footer-info h4, .social-links a {
-    color: #db241b;
+.txt p {
+    font-size: 14px;
 }
 
-.footer-info p {
-    color: #fff;
+.links {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
 }
 
-/* Responsividad para móviles */
-@media (max-width: 768px) {
-    .gallery-item {
-        flex-direction: column;
-    }
-
-    .gallery-item img {
-        width: 100%;
-    }
-
-    .gallery-text {
-        width: 100%;
-    }
+.links h4 {
+    margin-bottom: 20px;
 }
